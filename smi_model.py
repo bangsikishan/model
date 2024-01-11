@@ -5,7 +5,7 @@ class Base(DeclarativeBase):
     pass
 
 class SMI(Base):
-    __tablename__ = "tbl_webbid"
+    __tablename__ = "tbl_WebBid"
 
     webID: Mapped[int] = mapped_column(primary_key=True)
     stHash: Mapped[str] = Column(Text, nullable=False)
