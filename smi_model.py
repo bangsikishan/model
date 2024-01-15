@@ -1,5 +1,4 @@
-from sqlalchemy import String, Column, Text, Integer
-from sqlalchemy.orm import Mapped, mapped_column, DeclarativeBase
+from .shared_libs import *
 
 class Base(DeclarativeBase):
     pass
